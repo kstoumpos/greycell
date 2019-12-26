@@ -1,0 +1,8 @@
+[28-Jan-2019 04:23:27 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'WP_Error' not found in /home/greysell/public_html/wp-content/themes/project-theme-child/lib/my_account/lost-password.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/greysell/public_html/wp-content/themes/project-theme-child/lib/my_account/lost-password.php on line 3
+[28-Jan-2019 04:25:04 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'WP_Error' not found in /home/greysell/public_html/wp-content/themes/project-theme-child/lib/my_account/lost-password.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/greysell/public_html/wp-content/themes/project-theme-child/lib/my_account/lost-password.php on line 3

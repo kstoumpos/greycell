@@ -1,0 +1,318 @@
+# Translation of Plugins - Cookie Notice by dFactory - Stable (latest release) in Greek
+# This file is distributed under the same license as the Plugins - Cookie Notice by dFactory - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-03-14 12:09:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - Cookie Notice by dFactory - Stable (latest release)\n"
+
+#: cookie-notice.php:433
+msgid "Enable to reload the page after cookies are accepted."
+msgstr "Επαναφορτώση της σελίδας, μετά την αποδοχή των cookies."
+
+#: cookie-notice.php:339
+msgid "Reloading"
+msgstr "Επαναφόρτωση"
+
+#: cookie-notice.php:400
+msgid "The text of the option to refuse the usage of the cookies."
+msgstr "Το κείμενο για την επιλογή άρνησης της χρήσης των cookies."
+
+#: cookie-notice.php:301
+msgid "Check out our other <a href=\"%s\" target=\"_blank\">WordPress plugins</a>."
+msgstr "Δείτε τα υπόλοιπα <a href=\"%s\" target=\"_blank\">WordPress πρόσθετα</a> μας."
+
+#: cookie-notice.php:299
+msgid "<a href=\"%s\" target=\"_blank\">Rate it 5</a> on WordPress.org"
+msgstr "<a href=\"%s\" target=\"_blank\">Αξιολογήστε το με 5</a> στο WordPress.org"
+
+#: cookie-notice.php:296
+msgid "If you are having problems with this plugin, please browse it's <a href=\"%s\" target=\"_blank\">Documentation</a> or talk about them in the <a href=\"%s\" target=\"_blank\">Support forum</a>"
+msgstr "Εάν αντιμετωπίζετε προβλήματα με το πρόσθετο, παρακαλούμε συμβουλευτείτε την <a href=\"%s\" target=\"_blank\">Τεκμηρίωση</a> ή συζητήστε το στο <a href=\"%s\" target=\"_blank\">forum υποστήριξης</a>"
+
+#. Author URI of the plugin/theme
+msgid "http://www.dfactory.eu/"
+msgstr "http://www.dfactory.eu/"
+
+#. Author of the plugin/theme
+msgid "dFactory"
+msgstr "dFactory"
+
+#. Description of the plugin/theme
+msgid "Cookie Notice allows you to elegantly inform users that your site uses cookies and to comply with the EU cookie law regulations."
+msgstr "Η ειδοποίηση cookie σας επιτρέπει να ενημερώσετε κομψά τους χρήστες ότι o δικτυακός σας τόπος χρησιμοποιεί cookies προς συμμόρφωση με τους νομικούς κανονισμούς της ΕΕ σχετικά με τα cookies."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.dfactory.eu/plugins/cookie-notice/"
+msgstr "http://www.dfactory.eu/plugins/cookie-notice/"
+
+#: cookie-notice.php:890
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "Είστε σίγουροι πως θέλετε να κάνετε επαναφορά των ρυθμίσεων?"
+
+#: cookie-notice.php:856
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: cookie-notice.php:837
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: cookie-notice.php:736
+msgid "Settings restored to defaults."
+msgstr "Έγινε επαναφορά στις προεπιλεγμένες ρυθμίσεις."
+
+#: cookie-notice.php:619
+msgid "Choose buttons style."
+msgstr "Επιλέξτε στυλ κουμπιών."
+
+#: cookie-notice.php:599
+msgid "Number of pixels user has to scroll to accept the usage of the cookies and make the notification disappear."
+msgstr "Αριθμός των pixels που ο χρήστης θα πρέπει να κάνει scroll για να αποδεχτεί τη χρήση των cookies και να κάνει την ειδοποίηση να εξαφανιστεί."
+
+#: cookie-notice.php:595
+msgid "Enable cookie notice acceptance when users scroll."
+msgstr "Ενεργοποίηση της αποδοχής της ειδοποίησης cookie όταν οι χρήστες κάνουν scroll."
+
+#: cookie-notice.php:585
+msgid "Cookie notice acceptance animation."
+msgstr "Κινούμενο σχέδιο αποδοχής της ειδοποίησης cookie."
+
+#: cookie-notice.php:566
+msgid "Select location for your cookie notice."
+msgstr "Επιλέξτε την τοποθεσία για την ειδοποίηση cookie."
+
+#: cookie-notice.php:548
+msgid "Select where all the plugin scripts should be placed."
+msgstr "Επιλέξτε που θα τοποθετηθούν όλα τα scripts του πρόσθετου."
+
+#: cookie-notice.php:534
+msgid "The ammount of time that cookie should be stored for."
+msgstr "Διάρκεια αποθήκευσης του cookie."
+
+#: cookie-notice.php:514
+msgid "Select the link target for more info page."
+msgstr "Επιλέξτε το στόχο του συνδέσμου για τη σελίδα περισσότερων πληροφοριών."
+
+#: cookie-notice.php:494
+msgid "Enter the full URL starting with http://"
+msgstr "Εισάγετε τον πλήρη σύνδεσμο (URL) ξεκινώντας με http://"
+
+#: cookie-notice.php:490
+msgid "Select from one of your site's pages"
+msgstr "Επιλέξτε μια από τις σελίδες σας"
+
+#: cookie-notice.php:479
+msgid "-- select page --"
+msgstr "--επιλέξτε σελίδα --"
+
+#: cookie-notice.php:476
+msgid "Select where to redirect user for more information about cookies."
+msgstr "Επιλέξτε που να ανακατευθύνετε το χρήστη για περισσότερες πληροφορίες για τα cookies."
+
+#: cookie-notice.php:462
+msgid "The text of the more info button."
+msgstr "Το κείμενο του κουμπιού περισσότερων πληροφοριών."
+
+#: cookie-notice.php:455
+msgid "Enable Read more link."
+msgstr "Ενεργοποίηση του συνδέσμου Διαβάστε περισσότερα."
+
+#: cookie-notice.php:424
+msgid "Enter non functional cookies Javascript code here (for e.g. Google Analitycs) to be used after cookies are accepted."
+msgstr "Εισάγετε τον κώδικα Javascript των μη λειτουργικών cookies εδώ (π.χ. Google Analytics). Θα χρησιμοποιηθεί αφού γίνει αποδοχή των cookies."
+
+#: cookie-notice.php:395
+msgid "Give to the user the possibility to refuse third party non functional cookies."
+msgstr "Δώστε στο χρήστη τη δυνατότητα να αρνηθεί τα μη λειτουργικά cookies τρίτων."
+
+#: cookie-notice.php:385
+msgid "The text of the option to accept the usage of the cookies and make the notification disappear."
+msgstr "Το κείμενο της επιλογής αποδοχής χρήσης των cookies που κάνει την ειδοποίηση να εξαφανιστεί."
+
+#: cookie-notice.php:374
+msgid "Enter the cookie notice message."
+msgstr "Εισάγετε το μήνυμα ειδοποίησης cookie."
+
+#: cookie-notice.php:364
+msgid "Enable if you want all plugin data to be deleted on deactivation."
+msgstr "Ενεργοποιήστε το εάν επιθυμείτε να διαγραφούν όλα τα δεδομένα του πρόσθετου κατά την απενεργοποίηση."
+
+#: cookie-notice.php:350
+msgid "Colors"
+msgstr "Χρώματα"
+
+#: cookie-notice.php:349
+msgid "Button style"
+msgstr "Στυλ κουμπιού"
+
+#: cookie-notice.php:348
+msgid "Animation"
+msgstr "Κινούμενο σχέδιο"
+
+#: cookie-notice.php:347
+msgid "Position"
+msgstr "Θέση"
+
+#: cookie-notice.php:346
+msgid "Design"
+msgstr "Σχεδίαση"
+
+#: cookie-notice.php:343
+msgid "Deactivation"
+msgstr "Απενεργοποίηση"
+
+#: cookie-notice.php:342
+msgid "Script placement"
+msgstr "Θέση του script"
+
+#: cookie-notice.php:341
+msgid "Cookie expiry"
+msgstr "Λήξη Cookie"
+
+#: cookie-notice.php:340
+msgid "On scroll"
+msgstr "Στο scroll"
+
+#: cookie-notice.php:337
+msgid "Refuse button"
+msgstr "Κουμπί απόρριψης"
+
+#: cookie-notice.php:336
+msgid "Link target"
+msgstr "Στόχος συνδέσμου"
+
+#: cookie-notice.php:335
+msgid "More info link"
+msgstr "Σύνδεσμος για περισσότερες πληροφορίες"
+
+#: cookie-notice.php:334
+msgid "Button text"
+msgstr "Κείμενο κουμπιού"
+
+#: cookie-notice.php:333
+msgid "Message"
+msgstr "Κείμενο"
+
+#: cookie-notice.php:332
+msgid "Configuration"
+msgstr "Ρύθμιση"
+
+#: cookie-notice.php:316
+msgid "Reset to defaults"
+msgstr "Επαναφορά στις αρχικές ρυθμίσεις"
+
+#: cookie-notice.php:298
+msgid "Do you like this plugin?"
+msgstr "Σας αρέσει αυτό το πρόσθετο;"
+
+#: cookie-notice.php:295
+msgid "Need support?"
+msgstr "Χρειάζεστε υποστήριξη;"
+
+#. #-#-#-#-#  cookie-notice-code.pot (Cookie Notice 1.2.42)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: cookie-notice.php:278 cookie-notice.php:290 cookie-notice.php:293
+msgid "Cookie Notice"
+msgstr "Cookie Notice"
+
+#: cookie-notice.php:180
+msgid "Read more"
+msgstr "Διαβάστε περισσότερα"
+
+#: cookie-notice.php:179
+msgid "No"
+msgstr "Όχι"
+
+#: cookie-notice.php:178
+msgid "Ok"
+msgstr "Εντάξει"
+
+#: cookie-notice.php:177
+msgid "We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it."
+msgstr "Χρησιμοποιούμε cookies για να σας προσφέρουμε την καλύτερη δυνατή εμπειρία στη σελίδα μας. Εάν συνεχίσετε να χρησιμοποιείτε τη σελίδα, θα υποθέσουμε πως είστε ικανοποιημένοι με αυτό."
+
+#: cookie-notice.php:171
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: cookie-notice.php:170
+msgid "Header"
+msgstr "Κεφαλίδα"
+
+#: cookie-notice.php:166
+msgid "Slide"
+msgstr "Slide"
+
+#: cookie-notice.php:165
+msgid "Fade"
+msgstr "Ξεθώριασμα"
+
+#: cookie-notice.php:160
+msgid "infinity"
+msgstr "Εις το άπειρο"
+
+#: cookie-notice.php:159
+msgid "1 year"
+msgstr "1 έτος"
+
+#: cookie-notice.php:158
+msgid "6 months"
+msgstr "6 μήνες"
+
+#: cookie-notice.php:157
+msgid "3 months"
+msgstr "3 μήνες"
+
+#: cookie-notice.php:156
+msgid "1 month"
+msgstr "1 μήνας"
+
+#: cookie-notice.php:155
+msgid "1 week"
+msgstr "1 εβδομάδα"
+
+#: cookie-notice.php:154
+msgid "1 day"
+msgstr "1 μέρα"
+
+#: cookie-notice.php:150
+msgid "Bar color"
+msgstr "Χρώμα μπάρας"
+
+#: cookie-notice.php:149
+msgid "Text color"
+msgstr "Χρώμα κειμένου"
+
+#: cookie-notice.php:140
+msgid "Page link"
+msgstr "Σύνδεσμος σελίδας"
+
+#: cookie-notice.php:139
+msgid "Custom link"
+msgstr "Προσαρμοσμένος σύνδεσμος"
+
+#: cookie-notice.php:135
+msgid "Bootstrap"
+msgstr "Bootstrap"
+
+#: cookie-notice.php:134
+msgid "WordPress"
+msgstr "WordPress"
+
+#: cookie-notice.php:133 cookie-notice.php:164
+msgid "None"
+msgstr "Κανένα"
+
+#: cookie-notice.php:129
+msgid "Bottom"
+msgstr "Κάτω"
+
+#: cookie-notice.php:128
+msgid "Top"
+msgstr "Επάνω"

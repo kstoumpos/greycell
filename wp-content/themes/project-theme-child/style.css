@@ -1,0 +1,2414 @@
+/*
+Theme Name: ProjectTheme Child
+Theme URI: http://sitemile.com/products/wordpress-project-freelancer-theme/
+Description: The only wordpress theme that allows you to build a project bidding, freelancer, or chores website from your wordpress blog. A turn-key solution for your business. Create a full featured outsourcing website in minutes
+Author: SiteMile
+Author URI: http://sitemile.com
+Template: ProjectTheme
+Version: 7.2.4
+Text Domain: project-theme-child
+License: GNU General Public License v2 or later
+License URI: http://sitemile.com
+Tags: project, black, bid, budget, rating, feedback
+*/
+
+body {
+	font-size:12px;
+	text-align:center;
+    font-family: 'Open Sans',sans-serif;
+	color:#333;
+	margin:0px;
+	padding:0px;
+    background: #f9f9f9 !important;
+    overflow-x: hidden;
+}
+ul.sub-menu {
+    padding: 0px;
+}
+#menu-item-wpml-ls-63-el {
+    padding: 15px 15px 15px 0;
+}
+#menu-item-wpml-ls-63-en {
+    padding: 15px 15px 15px 0;
+}
+#menu-item-wpml-ls-61-el {
+    padding: 15px 15px 15px 0;
+}
+#menu-item-wpml-ls-61-en {
+    padding: 15px 15px 15px 0;
+}
+.post{
+	width:100%;
+	margin:auto;
+    overflow:unset;
+	margin-bottom:15px;
+	padding:15px;
+	position: relative; 	/* Changes made below, comments made above - Loukas */
+	box-shadow: 0 2px 2px rgba(0,0,0,.24),0 0 2px rgba(0,0,0,.12);
+	border-radius: 2px;
+	background: #fff;
+	transition: all .3s;
+	padding: 16px 16px 12px;
+	text-decoration: none;
+	letter-spacing: .01em;
+}
+
+#address_field {
+    display: none;
+}
+
+#change_address_field {
+  display: none;
+}
+
+.post-new3 li h2 {
+	float:left;
+	width:200px;
+	font-size:16px;
+    font-family: 'Open Sans',sans-serif;
+	font-weight:400;
+	margin-top:3px;
+}
+#footer-widget-area .widget-area {
+	float: left;
+	margin-right: unset;
+	width: 24.2%;
+}
+.my_box3
+{
+	width:100%;
+	height:auto;
+	margin-bottom:25px;
+	padding-bottom:20px;
+	position: relative; 	/* Changes made below, comments made above - Loukas */
+	display: inline-block;
+	box-shadow: 0 2px 2px rgba(0,0,0,.24),0 0 2px rgba(0,0,0,.12);
+	border-radius: 2px;
+	background: #fff;
+	transition: all .3s;
+	padding: 16px 16px 12px;
+	text-decoration: none;
+	letter-spacing: .01em;
+}
+#wrong-file-type-message > p{
+    background: #F9E6E6;
+    border-bottom: 1px solid #E25C5C;
+    padding: 10px;
+    box-sizing: border-box;
+    color:red;
+    font-weight: bold;
+}
+.post-new li p.strom_100 select{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.my_box4
+{
+	box-sizing:border-box;
+	display:inline-block;
+	width: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-left: 1px solid #f6f6f6;
+    border-right: 1px solid #f6f6f6;
+    border-bottom: 1px solid #efefef;
+	position: relative; 								/* Changes made below, and comments made above - Loukas */
+	box-shadow: 0 2px 2px rgba(0,0,0,.24),0 0 2px rgba(0,0,0,.12);
+	border-radius: 2px;
+	background: #fff;
+	transition: all .3s;
+	padding: 16px 16px 12px;
+	text-decoration: none;
+	letter-spacing: .01em;
+}
+
+.main_menu_menu_wrap
+{
+	margin:auto;
+	text-align:center;
+	background: #fafafa;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+	box-shadow: 0 0 5px #dedede;
+
+}
+
+.main_menu_menu
+{
+	display:inline-block;
+    margin:auto;
+    min-height:43px;
+}
+
+#cssmenu2,
+#cssmenu2 ul,
+#cssmenu2 ul li,
+#cssmenu2 ul li a,
+#cssmenu2 #menu-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin:auto;
+    font-size:15px;
+    font-family: 'Open Sans',sans-serif;
+}
+#cssmenu2:after,
+#cssmenu2 > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu2 #menu-button {
+  display: none;
+}
+
+#cssmenu2 > ul > li {
+  float: left;
+}
+#cssmenu2.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu2.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu2.align-center ul ul {
+  text-align: left;
+}
+#cssmenu2.align-right > ul > li {
+  float: right;
+}
+#cssmenu2 > ul > li > a {
+  padding: 17px;
+  padding-left:23px;
+  padding-right:23px;
+ 	color:#444;
+  text-decoration: none;
+  border-bottom:3px solid #fafafa;
+
+}
+#cssmenu2 > ul > li:hover > a {
+  border-bottom:3px solid #8dced4;
+}
+#cssmenu2 > ul > li.has-sub > a {
+  padding-right: 30px;
+}
+#cssmenu2 > ul > li.has-sub > a:after {
+  position: absolute;
+  top: 22px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #dddddd;
+  content: '';
+}
+#cssmenu2 > ul > li.has-sub > a:before {
+  position: absolute;
+  top: 19px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #dddddd;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#cssmenu2 > ul > li.has-sub:hover > a:before {
+  top: 23px;
+  height: 0;
+}
+#cssmenu2 ul ul {
+  position: absolute;
+  left: -9999px;
+}
+#cssmenu2.align-right ul ul {
+  text-align: right;
+}
+#cssmenu2 ul ul li {
+  height: 0;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#cssmenu2 li:hover > ul {
+  left: auto;
+}
+#cssmenu2.align-right li:hover > ul {
+  left: auto;
+  right: 0;
+}
+#cssmenu2 li:hover > ul > li {
+  height: 35px;
+}
+#cssmenu2 ul ul ul {
+  margin-left: 100%;
+  top: 0;
+}
+#cssmenu2.align-right ul ul ul {
+  margin-left: 0;
+  margin-right: 100%;
+}
+#cssmenu2 ul ul li a {
+  border-bottom: 1px solid rgba(150, 150, 150, 0.15);
+  padding: 11px 15px;
+  width: 170px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #dddddd;
+  font-weight: 400;
+  background: #4886a9;
+}
+#cssmenu2 ul ul li:last-child > a,
+#cssmenu2 ul ul li.last-item > a {
+  border-bottom: 0;
+}
+#cssmenu2 ul ul li:hover > a,
+#cssmenu2 ul ul li a:hover {
+  color: #ffffff;
+  background: #202C4A
+}
+#cssmenu2 ul ul li.has-sub > a:after {
+  position: absolute;
+  top: 16px;
+  right: 11px;
+  width: 8px;
+  height: 2px;
+  display: block;
+  background: #dddddd;
+  content: '';
+}
+#cssmenu2.align-right ul ul li.has-sub > a:after {
+  right: auto;
+  left: 11px;
+}
+#cssmenu2 ul ul li.has-sub > a:before {
+  position: absolute;
+  top: 13px;
+  right: 14px;
+  display: block;
+  width: 2px;
+  height: 8px;
+  background: #dddddd;
+  content: '';
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#cssmenu2.align-right ul ul li.has-sub > a:before {
+  right: auto;
+  left: 14px;
+}
+#cssmenu2 ul ul > li.has-sub:hover > a:before {
+  top: 17px;
+  height: 0;
+}
+
+.avatar-op-inner
+{
+	width:80px;
+	float:left
+}
+
+.avatar-op-list
+{
+	float:left;
+	width:160px;
+}
+
+.box_content2 {                                                     /* Added word wrap for big description */
+	padding-top:10px;
+	width:100%;
+	padding-bottom:10px;
+ 	display:inline-block;
+	word-wrap: break-word;
+}
+
+#content                                                            /* Added Loukas 23/1/19 */
+{
+	float:left;
+
+	padding-top:0;
+    width: 69%;
+	height:auto;
+}
+.content_dust{
+	float:left;
+
+	 padding-top:0;
+    width: 69%;
+	height:auto;
+}
+
+.order_by {                                                         /* Extra Class for the div "Order By" in Advanced Search Page */
+  float: none;
+  width: 100%;
+}
+
+.super_bid_panel                                                    /* Set height to unset and overflow to hidden */
+{
+	width:480px;
+	height:unset;
+	padding:20px;
+	overflow:hidden;
+}
+
+#colophon                                                           /* Removed margin-bottom */
+{
+	margin:auto;
+	overflow:hidden;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	color:#fff;
+	margin-top:100px;
+}
+
+.avatar-personal-information {                                      /* Class for the Avatar in the Personal Information Page */
+  border-radius: 30px;
+}
+
+/* Classes for the Divs in the 404 page */
+.title_404 {
+  font-weight: 600;
+  font-size: 108px;
+  text-align: center;
+}
+
+.sub_title_404 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.text_404 {
+  text-align: center;
+  font-weight: 500;
+}
+
+/* ΜEDIA PROJECT THEME */
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  #cssmenu2 {
+    width: 100%;
+  }
+  #cssmenu2 ul {
+    width: 100%;
+    display: none;
+  }
+  #cssmenu2.align-center > ul {
+    text-align: left;
+  }
+  #cssmenu2 ul li {
+    width: 100%;
+    border-top: 1px solid rgba(120, 120, 120, 0.2);
+  }
+  #cssmenu2 ul ul li,
+  #cssmenu2 li:hover > ul > li {
+    height: auto;
+
+  }
+  #cssmenu2 ul li a,
+  #cssmenu2 ul ul li a {
+    width: 100%;
+    font-size: 14px;              /* Changed font size to 14 - Loukas */
+    border-bottom: 0;
+  }
+  #cssmenu2 > ul > li {
+    float: none;
+  }
+  #cssmenu2 ul ul li a {
+    padding-left: 25px;
+  }
+  #cssmenu2 ul ul ul li a {
+    padding-left: 35px;
+  }
+  #cssmenu2 ul ul li a {
+    color: #dddddd;
+    background: none;
+  }
+  #cssmenu2 ul ul li:hover > a,
+  #cssmenu2 ul ul li.active > a {
+    color: #ffffff;
+  }
+  #cssmenu2 ul ul,
+  #cssmenu2 ul ul ul,
+  #cssmenu2.align-right ul ul {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+  #cssmenu2 > ul > li.has-sub > a:after,
+  #cssmenu2 > ul > li.has-sub > a:before,
+  #cssmenu2 ul ul > li.has-sub > a:after,
+  #cssmenu2 ul ul > li.has-sub > a:before {
+    display: none;
+  }
+  #cssmenu2 #menu-button {
+    display: block;
+    padding: 17px;
+    padding-left:11px;
+    color: #555;
+    cursor: pointer;
+    font-size: 16px;                      /* Changed to 16px from 12px - Loukas */
+    text-transform: uppercase;
+    font-weight: 600;                     /* Changed to 600 from 700 - Loukas */
+    text-align: left;                     /* Added left-alignment Loukas */
+  }
+  #cssmenu2 #menu-button:after {
+    position: absolute;
+    top: 22px;
+    right: 17px;
+    display: block;
+    height: 4px;
+    width: 20px;
+    border-top: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    content: '';
+  }
+  #cssmenu2 #menu-button:before {
+    position: absolute;
+    top: 16px;
+    right: 17px;
+    display: block;
+    height: 2px;
+    width: 20px;
+    background: #dddddd;
+    content: '';
+  }
+  #cssmenu2 #menu-button.menu-opened:after {
+    top: 23px;
+    border: 0;
+    height: 2px;
+    width: 15px;
+    background: #333;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  #cssmenu2 #menu-button.menu-opened:before {
+    top: 23px;
+    background: #333;
+    width: 15px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  #cssmenu2 .submenu-button {
+    position: absolute;
+    z-index: 99;
+    right: 0;
+    top: 0;
+    display: block;
+    border-left: 1px solid rgba(120, 120, 120, 0.2);
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+  }
+  #cssmenu2 .submenu-button.submenu-opened {
+    background: #3D73B6;
+  }
+  #cssmenu2 ul ul .submenu-button {
+    height: 34px;
+    width: 34px;
+  }
+  #cssmenu2 .submenu-button:after {
+    position: absolute;
+    top: 22px;
+    right: 19px;
+    width: 8px;
+    height: 2px;
+    display: block;
+    background: #dddddd;
+    content: '';
+  }
+  #cssmenu2 ul ul .submenu-button:after {
+    top: 15px;
+    right: 13px;
+  }
+  #cssmenu2 .submenu-button.submenu-opened:after {
+    background: #ffffff;
+  }
+  #cssmenu2 .submenu-button:before {
+    position: absolute;
+    top: 19px;
+    right: 22px;
+    display: block;
+    width: 2px;
+    height: 8px;
+    background: #dddddd;
+    content: '';
+  }
+  #cssmenu2 ul ul .submenu-button:before {
+    top: 12px;
+    right: 16px;
+  }
+  #cssmenu2 .submenu-button.submenu-opened:before {
+    display: none;
+  }
+}
+
+.h3-name
+{
+	width:100%;
+	text-align:center;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 600;
+	margin-bottom:50px
+}
+
+.search-ttl-form-inner {
+    margin-top: 22px;
+    display: none;
+    float: right;
+}
+/*Top Menu gradient animation*/
+.cool-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #8dced4;
+    transition: width .5s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+}
+
+.cool-link-how-it-works {
+  display: block !important;
+}
+
+p.home-text-justify{
+  text-align: justify;
+}
+#slider_main{
+	text-align:left;
+	margin-bottom:10px;
+	display:inline-block;
+	position:relative;
+	margin: auto;
+	text-align: left;
+	padding-top:0px;
+}
+
+#footer{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	background-repeat: no-repeat;
+    background-size: 100%;
+	min-height:60px;
+    border-top:20px solid #222;
+    background-size: cover;
+}
+
+#register_wrapper{
+	margin:auto;
+	width:100%;
+    text-align:center;
+    background-image: url('images/login-register-background/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#register_radio{
+    border: 1px solid #c6c7ca;
+    width:50%;
+    cursor: pointer;
+    padding:.625rem 2.5rem .625rem;
+    border-radius: 3px;
+}
+
+.member-type-radio-container .member-type-container input:checked+label {
+    color: #ff7300;
+    border-color: #ff7300;
+    background-color: #fff;
+}
+
+.user-agreement-wrapper {
+  height: auto;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  position: relative;
+  display: inline-block;
+  box-shadow: 0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
+  border-radius: 2px;
+  background: #fff;
+  transition: all .3s;
+  padding: 16px 16px 12px;
+  text-decoration: none;
+  letter-spacing: .01em;
+  margin-top: 25px;
+}
+
+.div-custom-legal-page .wpb_wrapper {                 /* Class for the div wrapper in the Legal Pages. Not for the content section */
+    text-align: justify;
+}
+
+.div-custom-content-legal-page .wpb_wrapper {         /* Class for the div wrapper in the Legal Pages. For the content section only */
+  text-align: left;
+  position: relative;
+  border-left: 2px;
+}
+
+.div-custom-legal-page li {                           /* Li styling in the div wrapper in the Legal Pages */
+  text-align: justify;
+  padding-left: 5px;
+}
+
+.div-custom-legal-page ul {                           /* Ul styling in the div wrapper in the Legal Pages */
+  text-align: justify;
+  padding-left: 15px;
+}
+
+.post-new li h3 {
+    float: left;
+    color: #444;
+    width: 100%;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 6px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.post-new li h2 {
+    float: left;
+    width: 100%;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.post-main-details ul li {
+    float:left;
+	display:inline;
+	margin-right:10px;
+	padding-right:3px;
+	border-right:1px solid #ddd	;
+	margin-bottom:6px;
+}
+.do_input_new {
+    padding: 15px;
+    overflow: visible;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #fcfcfc;
+    font-size: 15px;
+    color: #555;
+}
+
+select#do_input_new.do_input_new {
+    width:100%;
+}
+
+#subcategory {
+    width:100%;
+    margin-top:10px;
+}
+
+#location_select{
+    width: 100%;
+}
+.post-new li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-bottom: 10px;
+    overflow: unset;
+    width: 100%;
+}
+input.full_wdth_me.do_input_new::placeholder{
+    color:lightgrey;
+}
+input.full_wdth_me.do_input_new:focus{
+    border:1px solid #8dced4;
+}
+textarea.full_wdth_me.do_input_new.description_edit::placeholder{
+    color:lightgrey;
+}
+textarea.full_wdth_me.do_input_new.description_edit:focus{
+    border:1px solid #222222;
+}
+
+.small_buttons_div_left{
+    float: left;
+    text-align: unset;
+}
+
+.page_heading_me_project{
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+    background: #f5f5f5;
+    border-bottom: 1px solid #dedede;
+    min-height: 0px;
+    margin-bottom: 0px;
+    text-align: unset;
+}
+
+.page_heading_me_inner_project{
+    margin-top:0px;
+}
+
+.main-pg-title {
+    width:100%;
+    float:left;
+    margin: 25px 0;
+}
+
+.page_heading_me_inner .mm_inn {
+    font-size: 32px;
+    color: #444;
+    font-weight: 500;
+    font-family: 'Open Sans',sans-serif;
+    margin-bottom: 4px;
+    float: left;
+}
+
+#footer-widget-area div ul li {            /* Footer widget override for text alignment- Loukas 11-1-19 */
+	background:none;
+	border:0px;
+	color:#333;
+	padding:0px;
+	margin:0px;
+	margin-bottom:4px;
+    text-align: left;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.widget-container p{
+    font-size: 12px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: normal;
+    width:100%;
+    padding-right: 20px;
+}
+
+.submit-proposal-details                            /* Class for the elements in the Submit A Proposal pop-up(bidding-panel) */{
+    list-style-type: none;
+    overflow:hidden;
+    width:385px;
+    margin:0;
+    padding:0;
+    text-align: left
+}
+
+.submit-proposal-details li{
+    display:block;
+    width:400px;
+    width:100%;
+    float:left;overflow:hidden;
+    margin-bottom:2px;
+}
+
+.submit-proposal-details li img{
+	float:left;
+	margin-top:2px;
+	margin-right:10px
+}
+
+.submit-proposal-details li h3{
+	float:left;
+	width:117px;
+	font-weight:normal;
+	margin:3px;
+	font-size:13px;
+}
+
+.submit-proposal-details li p{
+    margin:3px;
+    float:left;
+    font-size:14px;
+    font-weight:bold;
+}
+#main {
+	text-align:left;
+	margin-bottom:10px;
+	display:inline-block;
+	position:relative;
+	margin: auto;
+	text-align: left;
+	padding-top:15px;
+}
+#my-account-admin-menu li a {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    margin-left: 3px;
+    width: 85%;
+    text-align: left;
+    margin-bottom: 0px;
+    padding: 4px;
+    font-size: 13px;
+    color: #888;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+}
+#my-account-admin-menu li a:hover
+{
+	color:#000000;
+	text-decoration:none
+}
+#my-account-admin-menu li:hover{
+	border-color:  #2196F3;
+	background-color: rgba(42,65,232,.04)
+}
+
+.widget-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.submit_bottom{
+  border: 0;
+  padding: 12px 15px;
+  font-size: 15px;
+  color: #fff;
+  background: #8dced4;
+  border: 1.5px solid #8dced4;
+  text-transform: capitalize;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 800;
+  font-family: inherit;
+}
+
+.submit_bottom:hover {
+	background-color: #fff;
+  color: #8dced4;
+  font-weight:800; }
+
+
+.invitation_form_button{
+  border: 0;
+  padding: 12px 18px;
+  font-size: 15px;
+  color: #fff;
+  background: #00E676;
+  border: 1.5px solid #00E676;
+  text-transform: capitalize;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 800;
+  font-family: inherit;
+}
+
+.invitation_form_button:hover {
+	background-color: #fff;
+  color: #00E676;
+	font-weight:800; }
+
+#site-info{
+    width: 100%;
+    margin: auto;
+    border-top: 1px solid #333;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding-top: 5px;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.other-dets {                                 /* Class Override */
+	list-style-type:none;
+	overflow:hidden;
+	margin-bottom:10px;
+	padding:0;
+	margin:0;
+}
+
+.other-dets li h3 {                             /*  Class Override for the Profile Details in the Single-Project Sidebar (added */
+    float:left;                                   /* margin-right, and changed width */
+    font-size:12px;
+    width:auto;
+    padding:0px;
+    margin:0px;
+    padding-top:2px;
+    margin-top:2px;
+    margin-right:5px
+}
+
+.xoxo li ul.other-dets li{                      /* For Profile Details also, added margin-bottom to 10px */
+	display:block;
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px; border:0;
+    margin-bottom:10px;
+    padding-bottom:4px;
+	border-bottom:1px dotted #ccc;
+}
+
+.confirmation_page {
+  width:100%;
+	height:auto;
+	margin-bottom: unset;                       /* changed from 25px Loukas 29/1 */
+	padding-bottom:20px;
+	position: relative;
+	display: inline-block;
+	box-shadow: 0 2px 2px rgba(0,0,0,.24),0 0 2px rgba(0,0,0,.12);
+	border-radius: 2px;
+	background: #fff;
+	transition: all .3s;
+	padding: 16px 16px 12px;
+	text-decoration: none;
+  letter-spacing: .01em;
+  text-align: center;
+}
+
+a.go_back_btn:link, a.go_back_btn:visited {
+  border-radius:5px;
+  border: 0;
+  padding: 12px 15px;
+  font-size: 15px;
+  color: #ffffff;
+  background: #8dced4;
+  border: 1.5px solid #8dced4;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 800;
+  font-family:inherit;
+}
+a.go_back_btn:hover {
+  background-color: #ffffff;
+  color: #8dced4;
+  border: 1.5px solid #8dced4;
+  font-weight:800;
+}
+.my-buttons
+{
+	border:0;
+	padding: 12px 15px;
+	font-size: 15px;
+	border-bottom: 0px solid #ffffff;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family:inherit;
+	background: #f0f0f0;
+	color: #333;
+}
+.my-buttons:hover{
+	background:#333;
+    text-shadow: none ;
+    color:#fff;
+    text-decoration:none;
+}
+.excerpt-thing {
+  margin:auto;
+  width:100%;
+  display:inline-block;
+  margin-bottom:5px;
+  margin-top:10px;
+  color:#555;
+  font-family: 'Open Sans',sans-serif;
+  line-height: 18px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  word-break: break-word;
+}
+.box_title{
+    width: 100%;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+}
+h3.about-author2{
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 21px;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 15px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.menu-item-919 a:link, .menu-item-919 a:visited {
+   background:#8dced4;
+   border: 1px solid rgb(141, 206, 212);
+   color: #F7F7F7;
+   font-weight: 700;
+   text-shadow: 0 -1px transparent;
+   border-radius:5px;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   margin-top: 9px;
+   margin-left:6px;
+}
+
+.menu-item-919 a:hover{
+   background:white;
+   border: 1px solid rgb(141, 206, 212)  !important;
+   color: #8dced4;
+   font-weight: 700;
+   text-shadow: 0 -1px transparent;
+   border-radius:5px;
+   opacity:0.7
+}
+
+.menu-item-902 a:link, .menu-item-902 a:visited {
+    background: -webkit-linear-gradient(top,rgb(251, 185, 88) 0,rgb(251, 185, 88) 100%);
+    background: linear-gradient(to bottom,rgb(251, 185, 88) 0,rgb(251, 185, 88) 100%);
+    border: 1px solid rgb(251, 185, 88);
+    color: #F7F7F7;
+    font-weight: 700;
+    text-shadow: 0 -1px transparent;
+    border-radius:5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-top: 9px;
+    margin-left:6px;
+}
+
+.menu-item-902 a:link, .menu-item-902 a:visited {
+ background:#fbb958;
+ border: 1px solid rgb(251, 185, 88);
+ color: #F7F7F7;
+ font-weight: 700;
+ text-shadow: 0 -1px transparent;
+ border-radius:5px;
+ padding-top: 9px;
+ padding-bottom: 9px;
+ margin-top: 9px;
+ margin-left:6px;
+}
+
+.menu-item-902 a:hover{
+ background: #fcc779 !important;
+ border: 1px solid rgb(252, 199, 121)  !important;
+ color: #F7F7F7;
+ font-weight: 700;
+ text-shadow: 0 -1px transparent;
+ border-radius:5px;
+ opacity:0.7
+}
+
+.menu-item-2088 a:hover{
+  background: -webkit-linear-gradient(top,rgb(251, 185, 88) 0,rgb(251, 185, 88) 100%) !important;
+  background: linear-gradient(to bottom,rgb(251, 185, 88) 0,rgb(251, 185, 88) 100%)  !important;
+  border: 1px solid rgb(251, 185, 88)  !important;
+  color: #F7F7F7;
+  font-weight: 700;
+  text-shadow: 0 -1px transparent;
+  border-radius:5px;
+  opacity:0.7
+}
+
+#ResponsiveTable {                                      /* Id of the Table in the Reviews */
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#HeadRow {                                              /* The first row of the table, that has the titles of each table element */
+  font-weight: bold;
+}
+
+#ResponsiveTable th {                                   /* Element of the table */
+  padding: 5px;
+  text-align: left;
+}
+
+.user-avatar-menu {
+  width: 45px;
+  border-radius:50%;
+}
+
+.search-project-button-container {                      /* Class for the container for the Search Project Button - in taxonomy.php */
+  margin-bottom: 10px;
+}
+
+.search-project-button {                                /* Class for the button in a Category Page- in taxonomy.php */
+  background-color: rgb(251, 185, 88);
+  border-bottom: 0;
+  color: black;
+}
+
+.cms_cms_messages                                       /* Class for the cms_cms ul in the Privates Messages page- private_messages.php */
+{
+	padding:0;
+	margin:0; display: inline-block;
+	list-style-type:none
+}
+
+.cms_cms_messages li
+{
+	float:left;
+	padding:0;
+	margin:0;
+	display:inline-block;
+	margin-left:5px;
+	margin-bottom:18px;
+}
+a.green_btn3:link, a.green_btn3:visited {
+
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	margin-left:2px;
+	margin-bottom:6px;
+	text-decoration: none;
+	border-radius:5px;
+	font-family:inherit;
+	padding: 7px 10px;
+    line-height: 24px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    transition: all .3s;
+    border-radius: 4px;
+    background: #f0f0f0;
+    color: #666;
+    text-align: center;
+
+}
+
+  a.green_btn3:hover
+{
+
+		background:#333;
+		text-shadow: none ;
+		color:#fff;
+		text-decoration:none;
+}
+
+a.go_back_btn_grey:link, a.go_back_btn_grey:visited {
+  border-radius:4px;
+  border: 0;
+  padding: 12px 15px;
+  font-size: 15px;
+  color: #fff;
+  background: #616161;
+  border-bottom: 3px solid #222;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Open Sans',sans-serif;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+#remaining_bids_in_bidding_panel {
+  margin-top: 15px;
+}
+
+#remaining_bids_in_bidding_panel h5 {
+  display: inline;
+}
+
+#remaining_bids_in_bidding_panel p {
+  display: inline;
+  float: none;
+}
+
+.winner-bid-row {
+  border-bottom: solid 2px rgb(251, 185, 80);
+  font-weight: bold;
+}
+
+.personal-information-plan-name {
+  margin-bottom:20px;
+}
+
+.personal-information-plan-name h4 {
+  border: 1px solid #616161;
+  text-align: center;
+  display: inline;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.personal-information-plan-element {
+  margin-bottom:10px;
+}
+
+.personal-information-plan-element h4 {
+  display: inline-block; width: 50%;
+}
+
+.personal-information-plan-element p {
+  display: inline; width: 50%; font-size: 15px;
+}
+
+.change-plan-button-medium {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.change-plan-button-small {
+  font-weight: bold;
+  font-size: small;
+}
+
+.earn-bids-button-small {
+  font-weight: bold;
+  font-size: small;
+}
+
+.single-plan-text {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* Class for the payment info box in edit project */
+.stuff-not-paid-info {
+	border-left: 8px solid rgb(101, 182, 183);
+  background: rgba(101, 182, 183, 0.13);
+  border-radius: 6px;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 95%;
+}
+
+/* Classes for the Plan Details of personal information */
+.plan-details-columns {
+  box-sizing: border-box;
+  float: left;
+  box-shadow: 0px 0px 2px;
+  width: 100%;
+}
+
+.plan-details-price {
+  box-sizing: border-box;
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.plan-details-price .plan-details-header {
+  box-sizing: border-box;
+  background-color: rgb(101, 182, 183);
+  color: white;
+  font-size: 25px;
+}
+
+.plan-details-price li {
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.plan-details-button {
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Classes for the Plans in the Plans panel */
+.plans-panel-pricing-table{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.plans-panel-col{
+  flex: 33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.plans-panel-table{
+  background: #fff;
+  padding: 20px 23px;
+  font-family: "montserrat",sans-serif;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 5px #00000070;
+}
+.plans-panel-table h2{
+  text-transform: uppercase;
+}
+.plans-panel-table ul{
+  margin: 0;
+  padding: 0;
+}
+.plans-panel-table ul li{
+  padding: 10px 0;
+  list-style: none;
+  font-size: 16px;
+  line-height: 15px;
+}
+.plans-panel-price{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.plans-panel-price {
+  list-style-type: none;
+  border: 0px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-family: sans-serif;
+  color: #84c5c5;
+}
+.plans-panel-price span{
+  display: block;
+  font-size: 14px;
+}
+.plans-panel-table a{
+  text-decoration: none;
+  color: #84c5c5;
+  border: 2px solid #84c5c5;
+  display: block;
+  padding: 10px 0px;
+  margin: 10px 30px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.3s linear;
+}
+.plans-panel-table:hover{
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.2);
+  border-left: 6px solid #8dced4;
+}
+.plans-panel-table a:hover{
+  background: #84c5c5;
+  color: #fff;
+}
+.plans-panel-price:hover{
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0);
+}
+
+.plans-panel-pop {
+  background: #72ba57;
+  color: #fff;
+  transform: rotate(48deg);
+  padding: 7px 37px;
+  position: absolute;
+  top: 16px;
+  right: -34px;
+}
+
+.plans-panel-table1{
+  background: #fff;
+  padding: 20px 23px;
+  font-family: "montserrat",sans-serif;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 5px #00000070;
+  }
+
+.plans-panel-table1 a{
+  text-decoration: none;
+  color: #84c5c5;
+  border: 2px solid #84c5c5;
+  display: block;
+  padding: 10px 0px;
+  margin: 10px 30px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.3s linear;
+}
+
+.plans-panel-table1:hover{
+  /* transform: scale(1.04);
+  border: none; */
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.2);
+  border-left: 6px solid #8dced4;
+}
+
+.plans-panel-table1 a:hover{
+  background: #84c5c5;
+  color: #fff;
+}
+
+.plans-panel-table1 h2{
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-top: 10px;
+
+}
+.plans-panel-table1 ul{
+  margin: 0;
+  padding: 0;
+}
+.plans-panel-table1 ul li{
+  padding: 10px 0;
+  list-style: none;
+  font-size: 16px;
+  line-height: 15px;
+}
+.plans-panel-price1{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.plans-panel-price1{
+  list-style-type: none;
+  border: 0px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+.plans-panel-paypal-box {
+  display: none;
+  text-align: center;
+}
+
+.overlay-plans-panel {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  padding-top: 10%;
+  text-align: center;
+  overflow: scroll;
+}
+.overlay-plans-panel:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.plans-panel {
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.plans-panel .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.plans-panel .close:hover {
+  color: #06D85F;
+}
+.plans-panel .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+  /* a.green_btn:link, a.green_btn:visited {
+    padding: 9px 12px;
+    font-size: 100%;
+  } */
+  a.green_btn:link, a.green_btn:visited {
+    padding: 6px 15px;
+    font-size: 13px;
+    border-radius:5px;
+    background: #f0f0f0;
+    color: #666;
+    text-transform:capitalize;
+    text-decoration: none;
+    font-weight:500;
+    font-family:inherit;
+    border: none;
+  }
+  a.green_btn:hover{
+    background:#333;
+    text-shadow: none ;
+    color:#fff;
+    text-decoration:none;
+}
+
+.or-separator {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  color: #98999c;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.or-separator:before {
+  border-top: 1px solid #dfe0e3;
+  content: ' ';
+  display: block;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  width: 47%;
+  z-index: -1;
+}
+
+.or-separator:after {
+  border-top: 1px solid #dfe0e3;
+  content: ' ';
+  display: block;
+  height: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 47%;
+  z-index: -1;
+}
+
+.invitation_form_email {
+  padding: 12px 60px 12px 15px;
+  font-size: 14px;
+}
+
+.how-it-works-invitation-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.how-it-works-invitation-columns {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.how-it-works-invitation-col {
+    flex: 33%;
+}
+
+@media screen and (max-width:980px) {
+  .how-it-works-invitation-col{
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .how-it-works-invitation-col{
+    flex: 100%;
+    max-width: 320px;
+  }
+}
+
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .plan-details-columns {
+    width: 100%;
+  }
+}
+
+/* Media for LAPTOPS up to 1151px(width that the footer was ruined) */
+@media screen and (max-width: 1151px) {
+  #footer {
+    background-size: cover;
+  }
+
+  .do_input_new2 {
+    padding: 0px;
+    width: 100%;
+  }
+
+  #medas li p {
+    margin-left: 0px;
+  }
+
+  a.post_bid_btn_new:link, a.post_bid_btn_new:visited {
+    padding: 12px 4px !important;
+    font-size: 13px;
+  }
+}
+
+
+/* Media for TABLETS up to 768px */
+@media screen and (max-width: 767px) {
+
+  .menu-item-902 a:link{
+    margin: unset;
+  }
+
+  .menu-item-2088 a:link{
+    margin: unset;
+  }
+
+  .menu-item-919 a:link{
+    margin: unset;
+  }
+
+  #cssmenu2 > ul > li > a {
+    color: #555;
+    background: #fafafa;
+    text-align: center;
+  }
+
+  #footer {
+    margin: unset !important;
+    background-size: cover !important;
+  }
+
+  #footer-widget-area div ul li {
+    text-align:center !important;
+    padding: 0px 10px !important;
+  }
+
+  #cssmenu2 #menu-button {
+    display: block;
+    padding: 17px;
+    padding-left:11px;
+    color: #555;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  #cssmenu2 ul li a,
+  #cssmenu2 ul ul li a {
+    width: 100%;
+    font-size: 14px;
+    border-bottom: 0;
+  }
+
+  .a:link {
+    margin: 0px 3px;
+  }
+
+  .my_box3 .box_title {
+    text-align: center;
+  }
+
+  .td {
+    text-align: center;
+  }
+
+  .padd10 {
+    text-align: center;
+  }
+
+  .cms_cms li {
+    float: none;
+    margin: 0px 10px;
+  }
+
+  .cms_cms_messages li {
+    float: none;
+    margin: 10px 0px;
+    width: 100%;
+  }
+
+  .do_input_new {
+    font-size: 14px;
+  }
+
+  #content {
+    text-align: center;
+    width: 100%;
+    padding-right: 0px;
+  }
+
+  .h2, h2 {
+    text-align: center !important;
+  }
+
+  #main {
+    width: 90%;
+  }
+
+  .page_heading_me_inner .mm_inn {
+    float: none;
+  }
+
+  .my_box4 {
+    text-align: center;
+  }
+
+  #left_form img {
+    width: 100%;
+  }
+
+  #form_container {
+    width: 100%;
+    margin: 20px auto 30px;
+  }
+
+  .inputMessages {
+    width: 100%;
+  }
+
+  #ResponsiveTable,
+  #ResponsiveTable tbody,
+  #ResponsiveTable tr,
+  #ResponsiveTable th {
+    display: block;
+  }
+
+  #HeadRow {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+  }
+
+  #ResponsiveTable th {
+    border: none;
+    position: relative;
+    padding-left: 40%;
+    white-space: normal;
+    text-align: left;
+    height: 30px;
+  }
+
+  #ResponsiveTable th:before {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40%;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+    content: attr(tableHeadData);
+  }
+
+  .completed_ratings {
+    text-align: unset;
+  }
+
+  .main-pg-title {
+    margin: 25px 0px 0px 0px;
+  }
+
+  .user-avatar-me {
+    margin-right: unset;
+  }
+
+  .avatar-personal-information {
+    margin-left: 45%;
+  }
+
+  .do_input {
+    width: 100%;
+    text-align: center;
+  }
+
+  .post-new3 li h2 {
+    width: 100%;
+  }
+
+  .post-new3 li p {
+    text-align: center;
+  }
+
+  #medas li h2 {
+    width: unset;
+  }
+
+  .search-project-button-container {
+    text-align: center;
+  }
+
+  .h5 {
+    text-align: center;
+  }
+
+  .avatar-op-inner {
+    width: 100%;
+  }
+
+  .avatar-op-list {
+    width: 100%;
+  }
+
+  .other-dets li p {
+    width: 100%;
+  }
+
+  .other-dets li h3 {
+    width: 100%;
+  }
+
+  .plans-panel-col{
+    flex: 100%;
+  }
+
+  .plans-panel-table h2{
+    font-size: 25px;
+    margin-top: 10px;
+  }
+}
+
+/* Media for PHABLETS Large up to 570px */
+@media screen and (max-width: 570px) {
+  #register_radio {
+    width: 100%;
+  }
+
+  .cms_cms li {
+    float: none;
+    margin: 10px 0px;
+    width: 100%;
+  }
+
+  .super_bid_panel {
+    width: auto;
+    height: auto;
+  }
+
+  .invitation_form_email {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Media for PHABLETS Small up to 457px */
+@media screen and (max-width: 457px) {
+  .my-bid-thing-average {
+    border-radius: 0%;
+    float: none;
+    text-align: center;
+  }
+
+  .my-bid-thing-me {
+    border-radius: 0%;
+    float: none;
+    text-align: center;
+  }
+
+  .post-main-details ul li {
+    margin-bottom: 10px;
+    width: 100%;
+    border-right:none;
+  }
+
+  .post-main-details ul li h4 {
+    float:none;
+  }
+
+  .countdown_section {
+    float: none;
+  }
+
+  a.go_back_btn:link,
+  a.go_back_btn:visited {
+    font-size: 14px;
+    width: 100%;
+    margin: 5px 0px;
+  }
+
+  a.go_back_btn_grey:link,
+  a.go_back_btn_grey:visited {
+    font-size: 14px;
+    width: 100%;
+    margin: 5px 0px;
+  }
+
+  .submit_bottom {
+    width: 100%;
+  }
+
+  .invitation_form_button {
+    width: 100%;
+  }
+
+  .user-avatar-me {
+    float: unset;
+    text-align: center;
+  }
+
+  .project-details li img {
+    float: none;
+  }
+
+  .project-details li h3 {
+    width: 100%;
+  }
+
+  .project-details li p {
+    width: 100%;
+  }
+
+  .small_buttons_div {
+    float: none;
+  }
+}
+
+/* Media for Mobiles up to 425px(Large Mobiles as described in Chrome) */
+@media only screen and (max-width: 426px) {
+  .xoxo li ul {
+      margin: unset;
+      padding: unset;
+  }
+  .alignleft {
+      margin-left: 15% !important;
+  }
+  #footer-widget-area .widget-area{
+      width: 100%;
+  }
+
+  .my-deliv_1 {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .my-deliv_2 {
+    text-align: center;
+  }
+
+  .post-title {
+    text-align: center;
+  }
+
+  .cms_cms li {
+    float: none;
+    margin: 0px 0px;
+    margin-bottom: 20px;
+  }
+
+  .cms_cms_messages li {
+    float: none;
+    margin: 0px 0px;
+    margin-bottom: 20px;
+  }
+
+  .do_input_new {
+    font-size: 12px;
+    padding-right: 2px;
+  }
+
+  .h4, h4 {
+    text-align: center !important;
+  }
+
+  .post-new li {
+    text-align: center;
+  }
+
+  .padd10 {
+    text-align: center;
+  }
+
+  .small_buttons_div {
+    float: none;
+  }
+
+  .account-main-area {
+    float: left;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .box_content {
+    padding: 0px;
+    text-align: center;
+  }
+
+  #form_container {
+    width: 100% !important;
+    margin: 12px 0px !important;
+  }
+
+  h3.main_question {
+    text-align: center !important;
+  }
+
+  .avatar-personal-information {
+    margin-left: unset;
+  }
+
+}
+
+/* Media for Mobiles up to 375px (Medium Mobiles as described in Chrome) */
+@media screen and (max-width: 375px) {
+  .super_bid_panel {
+    width: auto;
+    height: auto;
+  }
+
+  #left_form h2 {
+    font-size: 30px;
+  }
+
+  a.go_back_btn:link,
+  a.go_back_btn:visited {
+    font-size: 12px;
+    padding: 12px 12px;
+  }
+
+  a.go_back_btn_grey:link,
+  a.go_back_btn_grey:visited {
+    font-size: 12px;
+    padding: 12px 12px;
+  }
+
+  #register_radio{
+    width: 100%;
+  }
+}
+
+
+/* Media for Mobiles up to 361px(width that the placeholder text didnt fit) (Small Mobiles as described in Chrome) */
+@media screen and (max-width: 361px) {
+  .alignleft{
+      margin-left: 5% !important;
+  }
+
+  .do_input_new {
+    font-size: 12px;
+  }
+
+  .box_content {
+    padding: 0px;
+    text-align: center;
+  }
+
+  .my_box3 {
+    padding: 16px 8px 8px;
+  }
+
+  .submit_bottom {
+    margin-top: 10px;
+    float: unset !important;
+    width: 100%;
+  }
+
+  .invitation_form_button {
+    margin-top: 10px;
+    float: unset !important;
+    width: 100%;
+  }
+
+  .widget-title {
+    text-align: center;
+  }
+
+  .super_bid_panel {
+    width: auto;
+    height: auto;
+  }
+
+  .mark_as_completed_button {
+    padding: 9px 2px;
+    font-size: 100%;
+  }
+
+  #left_form h2 {
+    font-size: 25px;
+  }
+
+  a.go_back_btn:link,
+  a.go_back_btn:visited {
+    font-size: 14px;
+    padding: 12px 2px;
+    width: 100%;
+  }
+
+  a.go_back_btn_grey:link,
+  a.go_back_btn_grey:visited {
+    font-size: 14px;
+    padding: 12px 2px;
+    width: 100%;
+  }
+
+  .full_width_main {
+    width: 100%;
+  }
+
+  .bid_panel_box_title {
+    font-size: 30px;
+  }
+
+  #bottom-wizard {
+    right: unset;
+  }
+
+  #success {
+    width: 90%;
+    margin: 20px 10px;
+  }
+
+  .cms_cms li {
+    margin: 15px 0px;
+  }
+
+  .cms_cms_messages li {
+    margin: 15px 0px;
+  }
+}
+
+.menu-item-2290 a:link, .menu-item-2290 a:visited {
+    background: -webkit-linear-gradient(top,rgb(251, 185, 88) 0,rgb(251, 185, 88) 100%);
+    background: linear-gradient(to bottom,rgb(251, 185, 88) 0,rgb(251, 185, 88) 100%);
+    border: 1px solid rgb(251, 185, 88);
+    color: #F7F7F7;
+    font-weight: 700;
+    text-shadow: 0 -1px transparent;
+    border-radius:5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-top: 9px;
+    margin-left:6px;
+}
+
+.menu-item-2290 a:hover, .menu-item-2290 a:hover{
+    background: -webkit-linear-gradient(top,rgb(251, 185, 88) 0,rgb(251, 185, 88) 100%) !important;
+    background: linear-gradient(to bottom,rgb(251, 185, 88) 0,rgb(251, 185, 88) 100%)  !important;
+    border: 1px solid rgb(251, 185, 88)  !important;
+    color: #F7F7F7;
+    font-weight: 700;
+    text-shadow: 0 -1px transparent;
+    border-radius:5px;
+    opacity:0.7
+}
+
+.menu-item-2546 a:link, .menu-item-2546 a:visited, .menu-item-2546 a:link, .menu-item-2546 a:visited {
+   background: -webkit-linear-gradient(top,rgb(251, 185, 88) 0,rgb(251, 185, 88) 100%);
+   background: linear-gradient(to bottom,rgb(251, 185, 88) 0,rgb(251, 185, 88) 100%);
+   border: 1px solid rgb(251, 185, 88);
+   color: #F7F7F7;
+   font-weight: 700;
+   text-shadow: 0 -1px transparent;
+   border-radius: 5px;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   margin-top: 9px;
+   margin-left: 6px;
+}
+
+.menu-item-2546 a:hover, .menu-item-2546 a:hover {
+  background:#fff;
+  border: 1px solid #fbb958 !important;
+  color: #fbb958;
+  font-weight: 700;
+  text-shadow: 0 -1px transparent;
+  border-radius: 5px;
+  opacity: 0.7;
+}
+
+
+
+.theChampFacebookLoginBackground:hover {
+  background-color: white;
+  border: 1px solid #4267b2;
+}
+
+
+.theChampLoginButtonBackground:hover {
+  color: #4267b2!important;
+  transition: all 0.2s ease-in-out;
+}
+
+.theChampLinkedinLoginBackground {
+  background-color: #0077b5;
+}
+
+.theChampLoginButtonBackground:hover {
+  color: #0077b5!important;
+  transition: all 0.2s ease-in-out;
+}
+.theChampLinkedinLoginBackground:hover {
+  opacity: 0.8;
+  background-color: white;
+  border: 1px solid #0077b5;
+}
+
+a.post_bid_btn_new:link, a.post_bid_btn_new:visited {
+  padding: 6px 15px;
+  font-size: 13px;
+  border-radius:5px;
+  background: #f0f0f0;
+  color: #666;
+  text-transform:capitalize;
+  text-decoration: none;
+  font-weight:500;
+  font-family:inherit;
+  border: none;
+  text-align:center;
+  transition: all .3s;
+}
+
+a.post_bid_btn_new:hover
+{
+  background:#333;
+  text-shadow: none ;
+  color:#fff;
+  text-decoration:none;
+}
+
+a.project-owner-contact:link, a.project-owner-contact:visited {
+  padding: 6px 15px;
+  font-size: 13px;
+  border-radius:5px;
+  background: #f0f0f0;
+  color: #666;
+  text-transform:capitalize;
+  text-decoration: none;
+  font-weight:500;
+  font-family:inherit;
+  border: none;
+  font-family: inherit;
+  text-align:center;
+  width:160px;
+  transition: all .3s;
+}
+
+a.project-owner-contact:hover {
+background:#444;
+color:#FFF;
+text-decoration:none;
+}
+
+/* .xoxo>li:last-child {
+  border-bottom: none;
+  text-align: center;
+} */
+
+a.edit_project_pay_cls:link, a.edit_project_pay_cls:visited
+{
+  padding: 6px 15px;
+  font-size: 13px;
+  border-radius:5px;
+  background: #f0f0f0;
+  color: #666;
+  text-transform:capitalize;
+  text-decoration: none;
+  font-weight:500;
+  font-family:inherit;
+  border: none;
+  font-family: inherit;
+  text-align:center;
+  width:160px;
+  transition: all .3s;
+
+}
+a.edit_project_pay_cls:hover {
+	background:#444;
+	color:#FFF;
+	text-decoration:none;
+}
+.submit_bottom2 {
+  padding: 6px 15px;
+  font-size: 13px;
+  border-radius:5px;
+  background: #f0f0f0;
+  color: #666;
+  text-transform:capitalize;
+  text-decoration: none;
+  font-weight:500;
+  font-family:inherit;
+  border: none;
+  font-family: inherit;
+  text-align:center;
+  width:160px;
+  transition: all .3s;
+  }
+
+.submit_bottom2:hover {
+  background:#444;
+  color:#FFF;
+  text-decoration:none;
+  }
+#footer a:link,#footer a:visited
+{
+	text-decoration: none !important;
+	color:#fff;
+}
+
+#footer a:hover
+{
+	text-decoration:underline!important;
+	color:#ffffff;
+}
+@media screen and (max-width: 450px){
+  .the_champ_login_ul {
+    margin: 3px 0!important;
+    display: block;
+    text-align: -webkit-center;
+    }
+  }
+
+	.the_champ_login_ul {
+		width: auto !important;
+	}
