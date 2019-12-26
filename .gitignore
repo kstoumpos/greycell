@@ -1,3 +1,13 @@
 .wp-config.php
-.wp-content/uploads
+.wp-content/uploads/*
+.wp-content/ai1wm-backups/*
+.wp-content/uploads/cache/*
 *.log
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.zip
+*.ppt
+wp-config-sample.php
+wp-config.php
