@@ -186,12 +186,12 @@ function ProjectTheme_advanced_search_area_main_function() {
                     <div class="clear10"></div>
                     <div class = "order_by">
                         <?php
-                            $ge = 'order='.($_GET['order'] == 'ASC' ? "DESC" : "ASC").'&meta_key=budgets&orderby=meta_value_num';
-                            foreach($_GET as $key => $value){
-                                if($key != 'meta_key' && $key != 'orderby' && $key != 'order'){
-                                    $ge .= '&'.$key."=".htmlentities($value);
-                                }
-                            }
+//                            $ge = 'order='.($_GET['order'] == 'ASC' ? "DESC" : "ASC").'&meta_key=budgets&orderby=meta_value_num';
+//                            foreach($_GET as $key => $value){
+//                                if($key != 'meta_key' && $key != 'orderby' && $key != 'order'){
+//                                    $ge .= '&'.$key."=".htmlentities($value);
+//                                }
+//                            }
 
                             //------------------------
 
@@ -221,7 +221,6 @@ function ProjectTheme_advanced_search_area_main_function() {
                                 $adv = get_permalink($ProjectTheme_advanced_search_page_id)."&";
                             }
                         ?>
-                        <a href="<?php echo $adv; echo htmlentities($ge); ?>"><?php _e("Price","ProjectTheme"); ?></a> |
                         <a href="<?php echo $adv; echo htmlentities($ge2); ?>"><?php _e("Name","ProjectTheme"); ?></a> |
                         <a href="<?php echo $adv; echo htmlentities($ge3); ?>"><?php _e("Visits","ProjectTheme"); ?></a>
                     </div>
