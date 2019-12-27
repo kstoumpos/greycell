@@ -171,15 +171,15 @@ function ProjectTheme_post_new_area_function() {
 
                                     <?php do_action('ProjectTheme_step1_before_price'); ?>
 
-                                    <li>
-                                        <h2><?php echo __('Project Budget', 'ProjectTheme'); ?></h2>
-                                            <p class="strom_100">
-                                            <?php
-                                                $sel = get_post_meta($pid, 'budgets', true);
-                                                echo ProjecTheme_get_budgets_dropdown($sel, 'do_input_new');
-                                            ?>
-                                        </p>
-                                    </li>
+<!--                                    <li>-->
+<!--                                        <h2>--><?php //echo __('Project Budget', 'ProjectTheme'); ?><!--</h2>-->
+<!--                                            <p class="strom_100">-->
+<!--                                            --><?php
+//                                                $sel = get_post_meta($pid, 'budgets', true);
+//                                                echo ProjecTheme_get_budgets_dropdown($sel, 'do_input_new');
+//                                            ?>
+<!--                                        </p>-->
+<!--                                    </li>-->
 
                                     <?php do_action('ProjectTheme_step1_before_ending'); ?>
                                         
@@ -837,4 +837,4 @@ function ProjectTheme_post_new_area_function() {
     
 <?php 
     
-} ?>
+} ?>

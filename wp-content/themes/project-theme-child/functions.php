@@ -3034,22 +3034,22 @@ exit;
 // Function Override from Parent Theme
 function ProjecTheme_get_budgets_dropdown($selected = '', $class = '' , $rui = 0)
 {
-		$ech = '<select name="budgets" class="'.$class.'" id="'.$class.'">';
+//		$ech = '<select name="budgets" class="'.$class.'" id="'.$class.'">';
+//
+//		global $wpdb;
+//		$s = "select * from ".$wpdb->prefix."project_bidding_intervals order by low_limit asc";
+//		$r = $wpdb->get_results($s);
+//
+//		if($rui == 1) $ech .= '<option value="">'.__('Select','ProjectTheme').'</option>';
+//
+//		foreach($r as $row)
+//		{
+//			$nm = ProjectTheme_get_budget_name_string($row);
+//			$ech .= '<option value="'.$row->id.'" '.($row->id == $selected ? 'selected="selected"' : '').'>'.__($nm, 'ProjectTheme').'</option>';
+//
+//		}
 
-		global $wpdb;
-		$s = "select * from ".$wpdb->prefix."project_bidding_intervals order by low_limit asc";
-		$r = $wpdb->get_results($s);
-
-		if($rui == 1) $ech .= '<option value="">'.__('Select','ProjectTheme').'</option>';
-
-		foreach($r as $row)
-		{
-			$nm = ProjectTheme_get_budget_name_string($row);
-			$ech .= '<option value="'.$row->id.'" '.($row->id == $selected ? 'selected="selected"' : '').'>'.__($nm, 'ProjectTheme').'</option>';
-
-		}
-
-	return $ech.'</select>';
+	//return $ech.'</select>';
 
 }
 
